@@ -1,4 +1,4 @@
-This document describes the design of a small microcomputer system based on the RCA 1802 COSMAC CPU. 
+This project is the design of a small microcomputer system based on the RCA 1802 COSMAC CPU. 
 
 
 The specifications of the system are:
