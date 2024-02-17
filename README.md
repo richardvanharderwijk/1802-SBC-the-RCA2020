@@ -2,6 +2,7 @@ This document describes the design of a small microcomputer system based on the 
 
 The specifications of the system are:
 • RCA 1802 CPU; 8 bit; up to 3,2 MHz clockspeed
+
 • 64 kB RAM memory
 • 8kBROM
 • OS(ish): Utility to save, load, start programs; and examine registers and memory
