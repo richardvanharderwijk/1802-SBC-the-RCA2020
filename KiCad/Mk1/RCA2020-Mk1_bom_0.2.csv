@@ -1,0 +1,53 @@
+Component;Description;Part;References;Value;Footprint;Quantity Per PCB;Power;Datasheet
+1;Unpolarized capacitor;C;C10;20pF;C_Disc_D3.8mm_W2.6mm_P2.50mm;1;;~
+2;Unpolarized capacitor;C;C2 C3;47pF;C_Disc_D3.8mm_W2.6mm_P2.50mm;2;;~
+3;Polarized capacitor;CP;C1;10uF;CP_Radial_D6.3mm_P2.50mm;1;;~
+4;Polarized capacitor;CP;C4;1,5uF;CP_Radial_D5.0mm_P2.00mm;1;;~
+5;Polarized capacitor;CP;C5 C6 C7 C8 C9 C11 C12 C13 C14 C15 C16;0,22uF;CP_Radial_D5.0mm_P2.00mm;11;;~
+6;Audio Jack, 3 Poles (Stereo / TRS);AudioJack3;J5;AudioJack3;Lumberg-1501_04-MFG;1;;~
+7;Generic connector, single row, 01x40, script generated (kicad-library-utils/schlib/autogen/connector/);Conn_01x40_Female;J1 J4;Conn_01x40_Female;PinSocket_1x40_P2.54mm_Vertical;2;;~
+8;Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/);Screw_Terminal_01x02;J3;Screw_Terminal_01x02;TerminalBlock_bornier-2_P5.08mm;1;;~
+9;USB Type B connector;USB_B;J2;USB_B;USB_B_OST_USB-B1HSxx_Horizontal;1;; ~
+10;Jumper, 2-pole, closed/bridged;Jumper_2_Bridged;JP1 JP4 JP5;Jumper_2_Bridged;PinSocket_1x02_P2.54mm_Vertical;3;;~
+11;Jumper, 2-pole, open;Jumper_2_Open;JP6 JP7 JP8;Jumper_2_Open;PinSocket_1x02_P2.54mm_Vertical;3;;~
+12;Jumper, 3-pole, pins 1+2 closed/bridged;Jumper_3_Bridged12;JP2 JP3;Jumper_3_Bridged12;PinSocket_1x03_P2.54mm_Vertical;2;;~
+13;Resistor;R;R9 R10;4k7;R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal;2;0,010638298;~
+14;Resistor;R;R3 R4 R5 R6 R7 R8 R11;47k;R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal;7;0,003723404;~
+15;Resistor;R;R1;100k;R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal;1;;~
+16;Resistor;R;R2;6,8M;R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal;1;;~
+17;4 resistor network, star topology, bussed resistors, small symbol;R_Network04;RN1 RN2;4x47k;R_Array_SIP5;2;0,003723404;http://www.vishay.com/docs/31509/csc.pdf
+18;Push button switch, generic, two pins;SW_Push;SW1;SW_Push;RAFI_KeySwitch;1;;~
+19;Paged Parallel EEPROM 64Kb (8K x 8), DIP-28/SOIC-28;28C64;U5;28C64;DIP-28_W15.24mm_Socket;1;0,15;Atmel
+20;Quad Nor 2 inputs;4001;U3;4001;DIP-14_W7.62mm_Socket;1;;http://www.intersil.com/content/dam/Intersil/documents/cd40/cd4000bms-01bms-02bms-25bms.pdf
+21;Quad Nand 2 inputs;4011;U15;4011;DIP-14_W7.62mm_Socket;1;;http://www.intersil.com/content/dam/Intersil/documents/cd40/cd4011bms-12bms-23bms.pdf
+22;Triple Nand 3 inputs;4023;U11;4023;DIP-14_W7.62mm_Socket;1;;http://www.intersil.com/content/dam/Intersil/documents/cd40/cd4011bms-12bms-23bms.pdf
+23;Triple Nor 3 inputs;4025;U6;4025;DIP-14_W7.62mm_Socket;1;;http://www.intersil.com/content/dam/Intersil/documents/cd40/cd4000bms-01bms-02bms-25bms.pdf
+24;Decoder 4 to 10 lines;4028;U10;4028;DIP-16_W7.62mm_Socket;1;0,0025;http://www.intersil.com/content/dam/Intersil/documents/cd40/cd4028bms.pdf
+25;;4042;U7 U8;4042;DIP-16_W7.62mm_Socket;2;;
+26;Hex Buffer Inverter;4049;U9;4049;DIP-16_W7.62mm_Socket;1;;http://www.intersil.com/content/dam/intersil/documents/cd40/cd4049ubms.pdf
+27;128K x 8 High-Speed CMOS Static RAM, 55/70ns, DIP-32/SSOP-32;628128_DIP32_SSOP32;U4;628128_DIP32_SSOP32;DIP-32_W15.24mm_Socket;1;0,175;http://www.futurlec.com/Datasheet/Memory/628128.pdf
+28;8-bit Buffer/Line Driver 3-state;74HCT244;U12;74HCT244;DIP-20_W7.62mm_Socket;1;0,0025;https://assets.nexperia.com/documents/data-sheet/74HC_HCT244.pdf
+29;8-bit Latch 3-state outputs;74LS573;U13;74LS573;DIP-20_W7.62mm_Socket;1;;74xx/74hc573.pdf
+30;;74LVC4245AD;U14;74LVC4245AD;SOP-24_7.5x15.4mm_P1.27mm;1;0,032;
+31;8-bit, General Purpose, 5V, 3.2 MHz, DIP-40;CDP1802ACE;U1;CDP1802ACE;DIP-40_W15.24mm;1;0,004;http://www.cosmacelf.com/publications/data-sheets/cdp1802.pdf
+32;Positive 100mA 30V Linear Regulator, Fixed Output 3.3V, TO-92;L78L33_TO92;U2;L78L33_TO92;TO-92_Inline;1;;http://www.st.com/content/ccc/resource/technical/document/datasheet/15/55/e5/aa/23/5b/43/fd/CD00000446.pdf/files/CD00000446.pdf/jcr:content/translations/en.CD00000446.pdf
+33;;PCA9564PW;U16;PCA9564PW;SO-20_12.8x7.5mm_P1.27mm;1;0,0198;
+34;Realtime Clock/Calendar I2C Interface, SOIC-8;PCF8563T;U17;PCF8563T;SOIC-8_3.9x4.9mm_P1.27mm;1;0,0033;https://assets.nexperia.com/documents/data-sheet/PCF8563.pdf
+35;Two pin crystal;Crystal;Y2;32.768 kHz;Crystal_Round_D3.0mm_Vertical;1;;~
+36;Two pin crystal;Crystal;Y1;Crystal;Crystal_HC49-U_Vertical;1;;~
+;;;;;;;0,407185106;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+Component Groups:;36;;;;;;;
+Component Count:;62;;;;;;;
+Fitted Components:;62;;;;;;;
+Number of PCBs:;1;;;;;;;
+Total components:;62;;;;;;;
+Schematic Version:;0.2;;;;;;;
+Schematic Date:;20-02-2021;;;;;;;
+PCB Variant:;udefault;;;;;;;
+BoM Date:;2021 February 22, Monday 21:50:06;;;;;;;
+Schematic Source:;RCA2020-Mk1.sch;;;;;;;
+KiCad Version:;Eeschema (5.1.5-0-10_14);;;;;;;
